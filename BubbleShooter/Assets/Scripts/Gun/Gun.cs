@@ -16,7 +16,6 @@ public class Gun : MonoBehaviour
 
     void Start()
     {
-        //GetComponent<Transform>().position = Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0, 10)) + new Vector3(0, 0.3f, 0);
         _position = GetComponent<Transform>().position;
         _mainCamera = Camera.main;
         CanShoot = true;
